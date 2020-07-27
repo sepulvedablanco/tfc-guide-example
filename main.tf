@@ -1,9 +1,10 @@
 terraform {
   backend "remote" {
     organization = "diesoft"
-  }
-  workspaces {
-    name = "tfcloud"
+
+    workspaces {
+      name = "tfcloud"
+    }
   }
 }
 
